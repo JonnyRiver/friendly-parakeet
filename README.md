@@ -1,2 +1,13 @@
 # Password Generator Starter Code
-# friendly-parakeet
+
+## Purpose
+
+This website prompts users to confirm critera in order to randomly generate a password.
+
+## Built With
+
+- HTML
+- CSS
+- JAVASCRIPT
+
+## Website
