@@ -5,7 +5,7 @@
 var generateBtn = document.querySelector("#generate");
 
 
-var character= "!@#$%^&*()?,./><:;'\\[]\""
+var character= "!@#$%^&*()?,./><:;'\""
 var numbers= "1234567890"
 var alpha= "abcdefghijklmopqrstuvwxyz"
 
@@ -36,13 +36,14 @@ function generatePassword(){
   
 
   for(var i=0; i<passwordLength;i++){
-    var possibleCharacters=alpha;
+    var possibleCharacters="";
     if (hasSpecialCharacters){
       possibleCharacters=possibleCharacters+character;
     }
     
     if(hasUppercaseLetters){
-      possibleCharacters=possibleCharacters+alpha.toUpperCase;
+      possibleCharacters=possibleCharacters+alpha.toUpperCase();
+      
     }
 
     if(hasLowercaseLetters){
